@@ -1,0 +1,65 @@
+{
+  "name": "ilya.boyandin.me",
+  "description": "Home Page of Ilya Boyandin, Data Visualization Engineer",
+  "version": "1.0.0",
+  "author": "Ilya Boyandin",
+  "dependencies": {
+    "emotion": "^9.2.8",
+    "emotion-server": "^9.2.8",
+    "gatsby": "^2.3.25",
+    "gatsby-image": "^2.0.39",
+    "gatsby-plugin-emotion": "^2.0.5",
+    "gatsby-plugin-feed": "^2.1.1",
+    "gatsby-plugin-manifest": "^2.0.29",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.35",
+    "gatsby-plugin-typography": "^2.2.13",
+    "gatsby-remark-copy-linked-files": "^2.0.11",
+    "gatsby-remark-images": "^3.0.10",
+    "gatsby-remark-prismjs": "^3.2.8",
+    "gatsby-remark-responsive-iframe": "^2.1.1",
+    "gatsby-remark-smartypants": "^2.0.9",
+    "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-transformer-remark": "^2.3.8",
+    "gatsby-transformer-sharp": "^2.1.18",
+    "lodash": "^4.17.11",
+    "prismjs": "^1.15.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-emotion": "^9.2.8",
+    "react-headroom": "^2.2.2",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.0.5",
+    "react-typography": "^0.16.13",
+    "typography": "^0.16.17",
+    "typography-theme-moraga": "^0.15.10"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0",
+    "gh-pages": "^1.2.0",
+    "prettier": "^1.12.0"
+  },
+  "homepage": "http://ilyabo.github.io/",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyabo/ilyabo.github.io.git"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "deploy": "gatsby build && gh-pages -d public -b master",
+    "publish": "npm run deploy",
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+  }
+}
