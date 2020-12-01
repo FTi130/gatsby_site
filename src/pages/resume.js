@@ -119,7 +119,7 @@ const Resume = (props) => {
           <Link to="/">
             <img
               src={profilePic}
-              alt="Ilya Boyandin"
+              alt="Pavel Popov"
               className={css({
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
@@ -131,15 +131,15 @@ const Resume = (props) => {
           </Link>
 
           <Title>
-            Ilya Boyandin
-            <h2 className="subtitle">Web and Data Visualization Software Engineer</h2>
+            Pavel Popov
+            <h2 className="subtitle">Data Visualization Software Engineer</h2>
           </Title>
 
           <Contact>
-            <Go to="https://twitter.com/ilyabo">@ilyabo</Go>
-            <Go to="https://github.com/ilyabo">ilyabo@github</Go>
-            <Link to="/">ilya.boyandin.me</Link>
-            ilya@boyandin.me
+
+            <Go to="https://github.com/FTi130">FTi130@github</Go>
+            <a href="https://t.me/userpav" target="_blank" rel="noopener">@userpav</a> 
+                        
           </Contact>
         </Header>
 

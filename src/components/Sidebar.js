@@ -26,14 +26,14 @@ const Header = () =>
         marginBottom: rhythm(0.1),
       })}
     >
-      Ilya Boyandin
+      Pavel Popov
     </h1>
     <div className={css({
       fontSize: rhythm(0.6 * 0.9),
       marginBottom: rhythm(1),
       color: 'hsla(0,0%,0%,0.7)',
     })}>
-      Data Visualization Engineer
+      Computational designer and M.Sc Student
     </div>
   </Link>
 
@@ -45,7 +45,7 @@ const Sidebar = () =>
       <Link to="/about/">
         <img
           src={profilePic}
-          alt="Ilya Boyandin"
+          alt="Pavel Popov"
           className={css({
             marginRight: rhythm(1 / 2),
             marginBottom: 0,
@@ -58,7 +58,7 @@ const Sidebar = () =>
       <div className={css({
         marginTop: 10,
       })}>
-        <div><a href="mailto:ilya@boyandin.me">ilya@boyandin.me</a></div>
+        <div><a href="mailto:canabina.ods@gmail.com">canabina.ods@gmail.com</a></div>
       </div>
     </Content>
   </Container>

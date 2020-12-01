@@ -105,15 +105,15 @@ const Header = ({ postKind }) =>
         activeClassName={activeLinkCss}>
         Projects
       </Link>
-      <Link to="/talks/" partiallyActive={true} activeClassName={activeLinkCss}>Talks</Link>
+
       {/*<Link to="/blog/" partiallyActive={true} activeClassName={activeLinkCss}>Blog</Link>*/}
       <Link to="/about/" activeClassName={activeLinkCss}>About</Link>
       {/*<Link to="/resume/" activeClassName={activeLinkCss}>CV</Link>*/}
       <div className="filler"/>
       <SocialLinksArea>
-        <a href="https://twitter.com/ilyabo" target="_blank" rel="noopener"><FaTwitter/></a>
-        <a href="https://www.linkedin.com/in/ilyabo/" target="_blank" rel="noopener"><FaLinkedin/></a>
-        <a href="https://github.com/ilyabo" target="_blank" rel="noopener"><FaGithub/></a>
+        <a href="https://t.me/userpav" target="_blank" rel="noopener"></a>
+
+        <a href="https://github.com/FTi130" target="_blank" rel="noopener"><FaGithub/></a>
       </SocialLinksArea>
     </Outer>
   </Headroom>

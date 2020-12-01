@@ -2,10 +2,10 @@ const colors = require('./colors')
 
 module.exports = {
   siteMetadata: {
-    title: 'Ilya Boyandin - Data Visualization Engineer',
-    author: 'Ilya Boyandin',
-    description: 'I develop interactive data visualizations for the web.',
-    siteUrl: 'https://ilya.boyandin.me/',
+    title: 'Pavel Popov - Data Visualization Engineer',
+    author: 'Pavel Popov',
+    description: 'I develop simulation models and data visualisation.',
+    siteUrl: 'https://ya.ru/',
   },
   plugins: [
     {
@@ -58,8 +58,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ilya Boyandin - Data Visualization Engineer`,
-        short_name: `Ilya Boyandin`,
+        name: `Pavel Popov- Data Visualization Engineer`,
+        short_name: `Pavel Popov`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: colors.primary[1],
